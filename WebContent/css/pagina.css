@@ -1,0 +1,48 @@
+@CHARSET "ISO-8859-1";
+
+/**
+	User: João Pedro Valladão Pinheiro - 0711730
+	Date: 05/05/2013
+	Time: 00:59
+	Folha de Estilo da estrutura da página.
+ */
+ 
+#envelope
+{
+ 	position: relative;
+ 	margin: 0 auto;
+ 	width: 800px;
+	height: 600px;
+}
+ 
+#cabecalho
+{
+	position: relative;
+	float: left;
+	width: 100%;
+	height: 20%;
+}
+
+#jogo
+{
+	position: relative;
+	float: left;
+	width: 100%;
+	height: 80%;
+}
+
+.casa
+{
+	position: relative;
+	float: left;
+	width: 30%;
+	height: 30%;
+	text-align: center;
+}
+
+.peca
+{
+	font-family: monospace;
+	font-size: 150px;
+	font-weight: bold;
+}
